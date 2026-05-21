@@ -1,0 +1,160 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 81vh;
+}
+
+header>div {
+    height: 100%;
+    background: #fff3e0;
+    position: relative;
+}
+
+.cloud img {
+    min-width: 80px;
+    max-width: 150px;
+}
+
+.my-clouds {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr fr;
+}
+
+.cloud-1 {
+    text-align: left;
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+.cloud-2 {
+    text-align: right;
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+.title-text {
+    color: #3d5a80;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.disp-text {
+    font-size: 2rem;
+    font-family: "Google Sans Code", "Stack Sans Notch", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.title-img {
+    position: absolute;
+    bottom: 2px;
+    /* max-height:; */
+}
+
+.intro {}
+
+.pfp img {
+
+    border-radius: 50%;
+}
+
+.intro-head {
+    font-family: "Stack Sans Notch";
+    color: rgb(177, 145, 47);
+}
+
+
+.intro-p {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    color: white;
+    border-bottom: 3px dashed rgb(173, 130, 21);
+    width: 15%;
+}
+
+.my-btn button {
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.my-btn button:hover {
+
+    background: rgb(177, 145, 47);
+    border: 1px solid burlywood;
+    color: white;
+}
+
+.my-btn button a:hover {
+    color: white;
+}
+
+footer {
+    background: rgb(177, 145, 47);
+
+}
+
+.social a:hover {
+    color: white;
+}
+
+.prj-link{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+.prj-link:hover{
+    color: darkgray;
+}
+@media (max-width: 576px) {
+    header {
+        height: 83vh;
+    }
+
+    .my-clouds img {
+        max-width: 120px;
+    }
+
+    .title-img img {
+        max-width: 170px;
+    }
+
+    .pfp img {
+        max-width: 150px;
+    }
+
+    .skill-img img {
+        max-width: 200px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    header {
+        height: 100vh;
+    }
+
+    .my-clouds img {
+        max-width: 95px;
+    }
+
+    .title-img img {
+        max-width: 130px;
+    }
+}
