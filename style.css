@@ -110,10 +110,22 @@ footer {
     background: rgb(177, 145, 47);
 
 }
-
-.social a:hover {
-    color: white;
+.social:hover{
+    filter: invert(1);
 }
+
+.social a p{
+    display: flex;
+    justify-content: center;
+}
+
+/* .social a:hover {
+    color: white;
+} */
+
+/* .social-icon:hover{
+    filter: invert(1)
+} */
 
 .prj-link{
     color: darkgoldenrod;
